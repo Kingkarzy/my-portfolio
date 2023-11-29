@@ -59,7 +59,7 @@ const App = () => {
         <div className=''>
           <img src={javascript} className= 'absolute top-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
           <img src={typescript} className= 'absolute bottom-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
-          <img src={html} className= 'absolute top-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
+          <img src={html} className= 'absolute bottom-20 right-10 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
           <img src={css} className= 'absolute top-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
           <img src={reactjs} className= 'absolute top-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
           <img src={redux} className= 'absolute top-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
