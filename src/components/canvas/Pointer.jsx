@@ -8,7 +8,7 @@ const Pointer = () => {
   return (
     <motion.div
       ref={ref}
-      className='w-20 h-20 bg-transparent border-2 rounded-full border-[#915eff]'
+      className='w-20 h-20 bg-transparent border-2 rounded-full border-[#915eff] z-50'
       animate={{ x, y }}
       transition={{
         type: 'spring',

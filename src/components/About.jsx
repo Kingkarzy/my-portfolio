@@ -4,10 +4,11 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
+    <section id='about'>
       <div
         className={`${styles.paddingX} relative inset-0
        max-w-7xl mx-auto flex flex-row items-start gap-5 z-40`}
-       id='about'
+       
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <motion.div
@@ -38,7 +39,7 @@ const About = () => {
           </p>
         </motion.div>
       </div>
-    
+    </section>
   );
 };
 

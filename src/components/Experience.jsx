@@ -1,10 +1,9 @@
 import React from 'react';
-import { styles } from '../styles';
 import { motion } from 'framer-motion';
 
 const Experience = () => {
   return (
-    <motion.div className=' flex justify-between items-center mt-20' initial={{ opacity: 0 }}
+    <motion.div className=' flex justify-between items-center ' initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ ease: 'easeOut', duration: 2 }}>
      

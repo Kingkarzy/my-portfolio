@@ -113,7 +113,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.flip-horizontal {
+  transform: scaleX(-1);
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
