@@ -50,12 +50,6 @@ const App = () => {
           <Works />
           <Feedbacks />
         </div>
-
-        <div className='relative z-0'>
-          <Contact />
-          <Footer />
-        </div>
-
         <div className=''>
           <img src={javascript} className= 'absolute top-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
           <img src={typescript} className= 'absolute bottom-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
@@ -70,6 +64,12 @@ const App = () => {
           <img src={threejs} className= 'absolute top-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
           <img src={figma} className= 'absolute top-20 skew-y-12 w-[100px] h-[100px] lg:w-150px] lg:h-[100px]' />
         </div>
+        <div className='relative z-0'>
+          <Contact />
+          <Footer />
+        </div>
+
+        
       </div>
     </BrowserRouter>
   );
