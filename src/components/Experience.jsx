@@ -3,10 +3,13 @@ import { motion } from 'framer-motion';
 
 const Experience = () => {
   return (
-    <motion.div className=' flex justify-between items-center ' initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1 }}
-    transition={{ ease: 'easeOut', duration: 2 }}>
-     
+    <section className='z-0'>
+      <motion.div
+        className=' flex justify-between items-center z-0'
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ ease: 'easeOut', duration: 2 }}
+      >
         <motion.div
           className='w-40 h-40 rounded-lg bg-[#915eff] -z-1'
           initial={{ opacity: 0 }}
@@ -24,8 +27,8 @@ const Experience = () => {
             repeatDelay: 1,
           }}
         />
-         <motion.div
-          className='w-20 h-20 rounded-lg bg-[#915eff] -z-5'
+        <motion.div
+          className='w-20 h-20 rounded-lg bg-[#915eff] -z-1'
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           animate={{
@@ -44,8 +47,8 @@ const Experience = () => {
             repeatDelay: 1,
           }}
         />
-
-    </motion.div>
+      </motion.div>
+    </section>
   );
 };
 

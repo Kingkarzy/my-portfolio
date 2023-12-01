@@ -3,24 +3,17 @@ import { motion } from 'framer-motion';
 import { testimonials } from '../constants';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import review from '../assets/excellent-review.png';
 
 const Feedbacks = () => {
   return (
     <div className='relative w-full'>
-      <div className=''>
-        <img
-          src={review}
-          className='absolute -top-[100px] hidden lg:scale-75 lg:-left-20 lg:block 2xl:left-0 2xl:scale-110 leading-10'
-        />
-      </div>
       <motion.div
         className='max-w-7xl mx-auto flex flex-col gap-y-10 items-center justify-center mt-48'
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ ease: 'easeOut', duration: 2 }}
       >
-        <h1 className='orange-text-gradient font-extrabold text-6xl leading-10'>
+        <h1 className='orange-text-gradient font-extrabold text-4xl lg:text-6xl leading-10' data-aos="zoom-in-up">
           Feedback{' '}
         </h1>
 
@@ -98,11 +91,11 @@ const Feedbacks = () => {
               </div>
 
               <div className='flex justify-around items-center'>
-                <p className='text-lg font-medium tracking-widest'>
+                <p className='text-md lg:text-lg font-medium tracking-widest'>
                   {testimonial.designation}
                 </p>
                 <p className='text-xs'> of </p>
-                <p className='text-lg font-medium tracking-widest'>
+                <p className='text-md lg:text-lg font-medium tracking-widest'>
                   {testimonial.company}
                 </p>
               </div>
