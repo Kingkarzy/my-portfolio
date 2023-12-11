@@ -106,7 +106,7 @@ const Hero = () => {
 
         <div className='w-full flex flex-col gap-1 overflow-hidden lg:flex-row justify-around items-center box-content border-t border-t-indigo-400/50 absolute h-[185px] bottom-0'>
           {services?.map((service, index) => (
-            <Tilt>
+            <Tilt key={index}>
               <div
                 className='flex items-center box-content gap-x-1 cursor-all-scroll'
                 key={index}
